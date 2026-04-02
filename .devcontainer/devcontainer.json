@@ -1,0 +1,12 @@
+{
+  "name": "week10LCC n8n Codespace",
+  "dockerComposeFile": ["../docker-compose.yml"],
+  "service": "workspace",
+  "runServices": ["n8n"],
+  "workspaceFolder": "/workspace",
+  "shutdownAction": "stopCompose",
+  "forwardPorts": [5678],
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  }
+}
